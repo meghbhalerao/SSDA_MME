@@ -1,0 +1,460 @@
+Dataset multi Source painting Target clipart Labeled num perclass 1 Network resnet34
+126 classes in this dataset
+THCudaCheck FAIL file=/opt/conda/conda-bld/pytorch_1535493744281/work/aten/src/THC/THCGeneral.cpp line=663 error=11 : invalid argument
+S painting T clipart Train Ep: 0 lr0.01 	 Loss Classification: 4.986901 Loss T 0.470129 Method MME
+
+/home/megh/projects/domain-adaptation/SSDA_MME/utils/loss.py:38: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  out_t1 = F.softmax(out_t1)
+S painting T clipart Train Ep: 100 lr0.009925650290240803 	 Loss Classification: 1.055531 Loss T 0.302648 Method MME
+
+S painting T clipart Train Ep: 200 lr0.009852577760521605 	 Loss Classification: 0.932975 Loss T 0.248997 Method MME
+
+S painting T clipart Train Ep: 300 lr0.009780748269686728 	 Loss Classification: 0.867880 Loss T 0.216141 Method MME
+
+S painting T clipart Train Ep: 400 lr0.009710128909124701 	 Loss Classification: 0.963865 Loss T 0.205009 Method MME
+
+S painting T clipart Train Ep: 500 lr0.00964068794694323 	 Loss Classification: 0.785101 Loss T 0.211408 Method MME
+
+
+Test set: Average loss: 2.0145, Accuracy: 4821/9264 F1 (52%)
+
+
+Test set: Average loss: 2.0569, Accuracy: 190/360 F1 (52%)
+
+best acc test 52.040155 best acc val 52.777778
+record record/multi/MME/MME_net_resnet34_painting_to_clipart_num_1
+saving model
+S painting T clipart Train Ep: 600 lr0.00957239477517603 	 Loss Classification: 0.798386 Loss T 0.202959 Method MME
+
+S painting T clipart Train Ep: 700 lr0.009505219859830012 	 Loss Classification: 0.901316 Loss T 0.221746 Method MME
+
+S painting T clipart Train Ep: 800 lr0.009439134693595126 	 Loss Classification: 0.533199 Loss T 0.214402 Method MME
+
+S painting T clipart Train Ep: 900 lr0.009374111751051751 	 Loss Classification: 0.309828 Loss T 0.224881 Method MME
+
+S painting T clipart Train Ep: 1000 lr0.009310124446222227 	 Loss Classification: 0.773485 Loss T 0.187518 Method MME
+
+
+Test set: Average loss: 1.8155, Accuracy: 5328/9264 F1 (57%)
+
+
+Test set: Average loss: 1.8366, Accuracy: 213/360 F1 (59%)
+
+best acc test 57.512953 best acc val 59.166667
+record record/multi/MME/MME_net_resnet34_painting_to_clipart_num_1
+saving model
+S painting T clipart Train Ep: 1100 lr0.00924714709232377 	 Loss Classification: 0.622523 Loss T 0.217640 Method MME
+
+S painting T clipart Train Ep: 1200 lr0.009185154863590003 	 Loss Classification: 0.749974 Loss T 0.207406 Method MME
+
+S painting T clipart Train Ep: 1300 lr0.00912412375903735 	 Loss Classification: 0.577911 Loss T 0.197177 Method MME
+
+S painting T clipart Train Ep: 1400 lr0.009064030568061049 	 Loss Classification: 0.483828 Loss T 0.169747 Method MME
+
+S painting T clipart Train Ep: 1500 lr0.009004852837753237 	 Loss Classification: 0.647506 Loss T 0.196662 Method MME
+
+
+Test set: Average loss: 1.7660, Accuracy: 5472/9264 F1 (59%)
+
+
+Test set: Average loss: 1.7575, Accuracy: 222/360 F1 (61%)
+
+best acc test 59.067358 best acc val 61.666667
+record record/multi/MME/MME_net_resnet34_painting_to_clipart_num_1
+saving model
+S painting T clipart Train Ep: 1600 lr0.008946568841842816 	 Loss Classification: 0.565976 Loss T 0.182845 Method MME
+
+S painting T clipart Train Ep: 1700 lr0.008889157551163433 	 Loss Classification: 0.438930 Loss T 0.189481 Method MME
+
+S painting T clipart Train Ep: 1800 lr0.008832598605562044 	 Loss Classification: 0.347985 Loss T 0.181600 Method MME
+
+S painting T clipart Train Ep: 1900 lr0.008776872287166303 	 Loss Classification: 0.379549 Loss T 0.211605 Method MME
+
+S painting T clipart Train Ep: 2000 lr0.008721959494934213 	 Loss Classification: 0.474281 Loss T 0.191263 Method MME
+
+
+Test set: Average loss: 1.7229, Accuracy: 5696/9264 F1 (61%)
+
+
+Test set: Average loss: 1.6484, Accuracy: 224/360 F1 (62%)
+
+best acc test 61.485320 best acc val 62.222222
+record record/multi/MME/MME_net_resnet34_painting_to_clipart_num_1
+saving model
+S painting T clipart Train Ep: 2100 lr0.008667841720414475 	 Loss Classification: 0.224285 Loss T 0.153693 Method MME
+
+S painting T clipart Train Ep: 2200 lr0.008614501024650454 	 Loss Classification: 0.361457 Loss T 0.163505 Method MME
+
+S painting T clipart Train Ep: 2300 lr0.008561920016164943 	 Loss Classification: 0.455396 Loss T 0.180499 Method MME
+
+S painting T clipart Train Ep: 2400 lr0.008510081829966844 	 Loss Classification: 0.320688 Loss T 0.166327 Method MME
+
+S painting T clipart Train Ep: 2500 lr0.008458970107524513 	 Loss Classification: 0.361538 Loss T 0.196812 Method MME
+
+
+Test set: Average loss: 1.7067, Accuracy: 5823/9264 F1 (62%)
+
+
+Test set: Average loss: 1.6257, Accuracy: 231/360 F1 (64%)
+
+best acc test 62.856218 best acc val 64.166667
+record record/multi/MME/MME_net_resnet34_painting_to_clipart_num_1
+saving model
+S painting T clipart Train Ep: 2600 lr0.008408568977653933 	 Loss Classification: 0.372881 Loss T 0.165039 Method MME
+
+S painting T clipart Train Ep: 2700 lr0.00835886303827305 	 Loss Classification: 0.327674 Loss T 0.177145 Method MME
+
+S painting T clipart Train Ep: 2800 lr0.008309837338976545 	 Loss Classification: 0.386528 Loss T 0.153473 Method MME
+
+S painting T clipart Train Ep: 2900 lr0.008261477364388068 	 Loss Classification: 0.267228 Loss T 0.180272 Method MME
+
+S painting T clipart Train Ep: 3000 lr0.008213769018249545 	 Loss Classification: 0.367104 Loss T 0.150677 Method MME
+
+
+Test set: Average loss: 1.6649, Accuracy: 5958/9264 F1 (64%)
+
+
+Test set: Average loss: 1.5652, Accuracy: 235/360 F1 (65%)
+
+best acc test 64.313472 best acc val 65.277778
+record record/multi/MME/MME_net_resnet34_painting_to_clipart_num_1
+saving model
+S painting T clipart Train Ep: 3100 lr0.008166698608209509 	 Loss Classification: 0.402829 Loss T 0.145505 Method MME
+
+S painting T clipart Train Ep: 3200 lr0.008120252831274708 	 Loss Classification: 0.351304 Loss T 0.170115 Method MME
+
+S painting T clipart Train Ep: 3300 lr0.008074418759891278 	 Loss Classification: 0.190774 Loss T 0.141228 Method MME
+
+S painting T clipart Train Ep: 3400 lr0.008029183828623731 	 Loss Classification: 0.511444 Loss T 0.163733 Method MME
+
+S painting T clipart Train Ep: 3500 lr0.007984535821401871 	 Loss Classification: 0.368005 Loss T 0.169506 Method MME
+
+
+Test set: Average loss: 1.7666, Accuracy: 5858/9264 F1 (63%)
+
+
+Test set: Average loss: 1.5898, Accuracy: 242/360 F1 (67%)
+
+best acc test 63.234024 best acc val 67.222222
+record record/multi/MME/MME_net_resnet34_painting_to_clipart_num_1
+saving model
+S painting T clipart Train Ep: 3600 lr0.007940462859307384 	 Loss Classification: 0.368958 Loss T 0.164428 Method MME
+
+S painting T clipart Train Ep: 3700 lr0.007896953388873518 	 Loss Classification: 0.344831 Loss T 0.170404 Method MME
+
+S painting T clipart Train Ep: 3800 lr0.007853996170872714 	 Loss Classification: 0.370124 Loss T 0.182250 Method MME
+
+S painting T clipart Train Ep: 3900 lr0.00781158026956848 	 Loss Classification: 0.554891 Loss T 0.160680 Method MME
+
+S painting T clipart Train Ep: 4000 lr0.007769695042409123 	 Loss Classification: 0.210675 Loss T 0.184907 Method MME
+
+
+Test set: Average loss: 1.7069, Accuracy: 6005/9264 F1 (64%)
+
+
+Test set: Average loss: 1.6180, Accuracy: 239/360 F1 (66%)
+
+best acc test 63.234024 best acc val 66.388889
+record record/multi/MME/MME_net_resnet34_painting_to_clipart_num_1
+saving model
+S painting T clipart Train Ep: 4100 lr0.007728330130142108 	 Loss Classification: 0.388644 Loss T 0.154127 Method MME
+
+S painting T clipart Train Ep: 4200 lr0.007687475447329114 	 Loss Classification: 0.382900 Loss T 0.152038 Method MME
+
+S painting T clipart Train Ep: 4300 lr0.0076471211732427845 	 Loss Classification: 0.182480 Loss T 0.154962 Method MME
+
+S painting T clipart Train Ep: 4400 lr0.007607257743127307 	 Loss Classification: 0.266820 Loss T 0.171058 Method MME
+
+S painting T clipart Train Ep: 4500 lr0.007567875839805858 	 Loss Classification: 0.408752 Loss T 0.141086 Method MME
+
+
+Test set: Average loss: 1.7355, Accuracy: 6058/9264 F1 (65%)
+
+
+Test set: Average loss: 1.6079, Accuracy: 245/360 F1 (68%)
+
+best acc test 65.392919 best acc val 68.055556
+record record/multi/MME/MME_net_resnet34_painting_to_clipart_num_1
+saving model
+S painting T clipart Train Ep: 4600 lr0.007528966385618854 	 Loss Classification: 0.388531 Loss T 0.135119 Method MME
+
+S painting T clipart Train Ep: 4700 lr0.007490520534677821 	 Loss Classification: 0.228666 Loss T 0.165946 Method MME
+
+S painting T clipart Train Ep: 4800 lr0.007452529665420465 	 Loss Classification: 0.159251 Loss T 0.130132 Method MME
+
+S painting T clipart Train Ep: 4900 lr0.007414985373453289 	 Loss Classification: 0.274021 Loss T 0.154976 Method MME
+
+S painting T clipart Train Ep: 5000 lr0.007377879464668811 	 Loss Classification: 0.382890 Loss T 0.137818 Method MME
+
+
+Test set: Average loss: 1.7595, Accuracy: 6062/9264 F1 (65%)
+
+
+Test set: Average loss: 1.6399, Accuracy: 230/360 F1 (63%)
+
+best acc test 65.392919 best acc val 63.888889
+record record/multi/MME/MME_net_resnet34_painting_to_clipart_num_1
+saving model
+S painting T clipart Train Ep: 5100 lr0.007341203948625087 	 Loss Classification: 0.366566 Loss T 0.134148 Method MME
+
+S painting T clipart Train Ep: 5200 lr0.007304951032175895 	 Loss Classification: 0.558787 Loss T 0.155230 Method MME
+
+S painting T clipart Train Ep: 5300 lr0.007269113113340497 	 Loss Classification: 0.195477 Loss T 0.127784 Method MME
+
+S painting T clipart Train Ep: 5400 lr0.007233682775402483 	 Loss Classification: 0.232332 Loss T 0.092857 Method MME
+
+S painting T clipart Train Ep: 5500 lr0.007198652781227704 	 Loss Classification: 0.353746 Loss T 0.108303 Method MME
+
+
+Test set: Average loss: 1.7607, Accuracy: 6104/9264 F1 (65%)
+
+
+Test set: Average loss: 1.7302, Accuracy: 234/360 F1 (65%)
+
+best acc test 65.392919 best acc val 65.000000
+record record/multi/MME/MME_net_resnet34_painting_to_clipart_num_1
+saving model
+S painting T clipart Train Ep: 5600 lr0.007164016067791809 	 Loss Classification: 0.221828 Loss T 0.123670 Method MME
+
+S painting T clipart Train Ep: 5700 lr0.0071297657409083726 	 Loss Classification: 0.178219 Loss T 0.125612 Method MME
+
+S painting T clipart Train Ep: 5800 lr0.0070958950701490225 	 Loss Classification: 0.315139 Loss T 0.158577 Method MME
+
+S painting T clipart Train Ep: 5900 lr0.007062397483947426 	 Loss Classification: 0.290846 Loss T 0.129405 Method MME
+
+S painting T clipart Train Ep: 6000 lr0.007029266564879363 	 Loss Classification: 0.310148 Loss T 0.147837 Method MME
+
+
+Test set: Average loss: 1.7924, Accuracy: 6139/9264 F1 (66%)
+
+
+Test set: Average loss: 1.6752, Accuracy: 236/360 F1 (65%)
+
+best acc test 65.392919 best acc val 65.555556
+record record/multi/MME/MME_net_resnet34_painting_to_clipart_num_1
+saving model
+S painting T clipart Train Ep: 6100 lr0.006996496045111504 	 Loss Classification: 0.299027 Loss T 0.126892 Method MME
+
+S painting T clipart Train Ep: 6200 lr0.00696407980201184 	 Loss Classification: 0.223150 Loss T 0.117612 Method MME
+
+S painting T clipart Train Ep: 6300 lr0.006932011853915101 	 Loss Classification: 0.318434 Loss T 0.116801 Method MME
+
+S painting T clipart Train Ep: 6400 lr0.006900286356036734 	 Loss Classification: 0.200132 Loss T 0.117897 Method MME
+
+S painting T clipart Train Ep: 6500 lr0.006868897596529406 	 Loss Classification: 0.311025 Loss T 0.149949 Method MME
+
+
+Test set: Average loss: 1.8036, Accuracy: 6184/9264 F1 (66%)
+
+
+Test set: Average loss: 1.6722, Accuracy: 239/360 F1 (66%)
+
+best acc test 65.392919 best acc val 66.388889
+record record/multi/MME/MME_net_resnet34_painting_to_clipart_num_1
+saving model
+S painting T clipart Train Ep: 6600 lr0.006837839992676177 	 Loss Classification: 0.179956 Loss T 0.125188 Method MME
+
+S painting T clipart Train Ep: 6700 lr0.006807108087214876 	 Loss Classification: 0.183062 Loss T 0.133657 Method MME
+
+S painting T clipart Train Ep: 6800 lr0.006776696544788352 	 Loss Classification: 0.127621 Loss T 0.093342 Method MME
+
+S painting T clipart Train Ep: 6900 lr0.006746600148515609 	 Loss Classification: 0.138782 Loss T 0.124196 Method MME
+
+S painting T clipart Train Ep: 7000 lr0.006716813796678979 	 Loss Classification: 0.195996 Loss T 0.120964 Method MME
+
+
+Test set: Average loss: 1.8423, Accuracy: 6193/9264 F1 (66%)
+
+
+Test set: Average loss: 1.6974, Accuracy: 248/360 F1 (68%)
+
+best acc test 66.850173 best acc val 68.888889
+record record/multi/MME/MME_net_resnet34_painting_to_clipart_num_1
+saving model
+S painting T clipart Train Ep: 7100 lr0.006687332499522798 	 Loss Classification: 0.144317 Loss T 0.114426 Method MME
+
+S painting T clipart Train Ep: 7200 lr0.006658151376159165 	 Loss Classification: 0.297076 Loss T 0.095207 Method MME
+
+S painting T clipart Train Ep: 7300 lr0.00662926565157663 	 Loss Classification: 0.256559 Loss T 0.113399 Method MME
+
+S painting T clipart Train Ep: 7400 lr0.006600670653747793 	 Loss Classification: 0.275895 Loss T 0.126023 Method MME
+
+S painting T clipart Train Ep: 7500 lr0.0065723618108320175 	 Loss Classification: 0.158024 Loss T 0.087103 Method MME
+
+
+Test set: Average loss: 1.8967, Accuracy: 6228/9264 F1 (67%)
+
+
+Test set: Average loss: 1.7534, Accuracy: 240/360 F1 (66%)
+
+best acc test 66.850173 best acc val 66.666667
+record record/multi/MME/MME_net_resnet34_painting_to_clipart_num_1
+saving model
+S painting T clipart Train Ep: 7600 lr0.006544334648469591 	 Loss Classification: 0.368479 Loss T 0.099278 Method MME
+
+S painting T clipart Train Ep: 7700 lr0.006516584787163857 	 Loss Classification: 0.086390 Loss T 0.103256 Method MME
+
+S painting T clipart Train Ep: 7800 lr0.006489107939747966 	 Loss Classification: 0.111266 Loss T 0.104627 Method MME
+
+S painting T clipart Train Ep: 7900 lr0.0064618999089330565 	 Loss Classification: 0.218979 Loss T 0.108520 Method MME
+
+S painting T clipart Train Ep: 8000 lr0.006434956584934828 	 Loss Classification: 0.233562 Loss T 0.109767 Method MME
+
+
+Test set: Average loss: 1.9363, Accuracy: 6214/9264 F1 (67%)
+
+
+Test set: Average loss: 1.8081, Accuracy: 246/360 F1 (68%)
+
+best acc test 66.850173 best acc val 68.333333
+record record/multi/MME/MME_net_resnet34_painting_to_clipart_num_1
+saving model
+S painting T clipart Train Ep: 8100 lr0.006408273943175546 	 Loss Classification: 0.185056 Loss T 0.108931 Method MME
+
+S painting T clipart Train Ep: 8200 lr0.006381848042058713 	 Loss Classification: 0.271730 Loss T 0.100028 Method MME
+
+S painting T clipart Train Ep: 8300 lr0.0063556750208137005 	 Loss Classification: 0.082750 Loss T 0.112435 Method MME
+
+S painting T clipart Train Ep: 8400 lr0.006329751097407787 	 Loss Classification: 0.216840 Loss T 0.113576 Method MME
+
+S painting T clipart Train Ep: 8500 lr0.0063040725665231365 	 Loss Classification: 0.303084 Loss T 0.095117 Method MME
+
+
+Test set: Average loss: 1.8933, Accuracy: 6267/9264 F1 (67%)
+
+
+Test set: Average loss: 1.7271, Accuracy: 245/360 F1 (68%)
+
+best acc test 66.850173 best acc val 68.055556
+record record/multi/MME/MME_net_resnet34_painting_to_clipart_num_1
+saving model
+S painting T clipart Train Ep: 8600 lr0.006278635797596355 	 Loss Classification: 0.064797 Loss T 0.087334 Method MME
+
+S painting T clipart Train Ep: 8700 lr0.006253437232918371 	 Loss Classification: 0.321002 Loss T 0.104484 Method MME
+
+S painting T clipart Train Ep: 8800 lr0.0062284733857924735 	 Loss Classification: 0.332276 Loss T 0.111411 Method MME
+
+S painting T clipart Train Ep: 8900 lr0.006203740838748417 	 Loss Classification: 0.257988 Loss T 0.097116 Method MME
+
+S painting T clipart Train Ep: 9000 lr0.006179236241810624 	 Loss Classification: 0.165493 Loss T 0.104984 Method MME
+
+
+Test set: Average loss: 1.9659, Accuracy: 6227/9264 F1 (67%)
+
+
+Test set: Average loss: 1.7389, Accuracy: 256/360 F1 (71%)
+
+best acc test 67.217185 best acc val 71.111111
+record record/multi/MME/MME_net_resnet34_painting_to_clipart_num_1
+saving model
+S painting T clipart Train Ep: 9100 lr0.006154956310818535 	 Loss Classification: 0.252920 Loss T 0.098996 Method MME
+
+S painting T clipart Train Ep: 9200 lr0.0061308978257973165 	 Loss Classification: 0.196704 Loss T 0.108194 Method MME
+
+S painting T clipart Train Ep: 9300 lr0.0061070576293771285 	 Loss Classification: 0.121634 Loss T 0.101718 Method MME
+
+S painting T clipart Train Ep: 9400 lr0.006083432625259276 	 Loss Classification: 0.167997 Loss T 0.116120 Method MME
+
+S painting T clipart Train Ep: 9500 lr0.006060019776727621 	 Loss Classification: 0.229750 Loss T 0.120742 Method MME
+
+
+Test set: Average loss: 2.0028, Accuracy: 6253/9264 F1 (67%)
+
+
+Test set: Average loss: 1.7409, Accuracy: 249/360 F1 (69%)
+
+best acc test 67.217185 best acc val 69.166667
+record record/multi/MME/MME_net_resnet34_painting_to_clipart_num_1
+saving model
+S painting T clipart Train Ep: 9600 lr0.00603681610520369 	 Loss Classification: 0.182646 Loss T 0.092565 Method MME
+
+S painting T clipart Train Ep: 9700 lr0.0060138186888439825 	 Loss Classification: 0.297623 Loss T 0.093549 Method MME
+
+S painting T clipart Train Ep: 9800 lr0.005991024661178045 	 Loss Classification: 0.384001 Loss T 0.108397 Method MME
+
+S painting T clipart Train Ep: 9900 lr0.0059684312097859115 	 Loss Classification: 0.197371 Loss T 0.109148 Method MME
+
+S painting T clipart Train Ep: 10000 lr0.005946035575013605 	 Loss Classification: 0.079999 Loss T 0.075731 Method MME
+
+
+Test set: Average loss: 2.0702, Accuracy: 6281/9264 F1 (67%)
+
+
+Test set: Average loss: 1.8358, Accuracy: 246/360 F1 (68%)
+
+best acc test 67.217185 best acc val 68.333333
+record record/multi/MME/MME_net_resnet34_painting_to_clipart_num_1
+saving model
+S painting T clipart Train Ep: 10100 lr0.005923835048725393 	 Loss Classification: 0.245796 Loss T 0.076727 Method MME
+
+S painting T clipart Train Ep: 10200 lr0.005901826973091593 	 Loss Classification: 0.089368 Loss T 0.084847 Method MME
+
+S painting T clipart Train Ep: 10300 lr0.005880008739410735 	 Loss Classification: 0.289789 Loss T 0.072762 Method MME
+
+S painting T clipart Train Ep: 10400 lr0.005858377786964935 	 Loss Classification: 0.144257 Loss T 0.084272 Method MME
+
+S painting T clipart Train Ep: 10500 lr0.005836931601907399 	 Loss Classification: 0.123046 Loss T 0.084228 Method MME
+
+
+Test set: Average loss: 2.0158, Accuracy: 6297/9264 F1 (67%)
+
+
+Test set: Average loss: 1.8434, Accuracy: 245/360 F1 (68%)
+
+best acc test 67.217185 best acc val 68.055556
+record record/multi/MME/MME_net_resnet34_painting_to_clipart_num_1
+saving model
+S painting T clipart Train Ep: 10600 lr0.005815667716181004 	 Loss Classification: 0.093859 Loss T 0.091507 Method MME
+
+S painting T clipart Train Ep: 10700 lr0.005794583706466925 	 Loss Classification: 0.173902 Loss T 0.094270 Method MME
+
+S painting T clipart Train Ep: 10800 lr0.005773677193162352 	 Loss Classification: 0.300136 Loss T 0.118110 Method MME
+
+S painting T clipart Train Ep: 10900 lr0.005752945839386346 	 Loss Classification: 0.332525 Loss T 0.080938 Method MME
+
+S painting T clipart Train Ep: 11000 lr0.005732387350012933 	 Loss Classification: 0.093755 Loss T 0.091387 Method MME
+
+
+Test set: Average loss: 2.1074, Accuracy: 6291/9264 F1 (67%)
+
+
+Test set: Average loss: 1.9636, Accuracy: 248/360 F1 (68%)
+
+best acc test 67.217185 best acc val 68.888889
+record record/multi/MME/MME_net_resnet34_painting_to_clipart_num_1
+saving model
+S painting T clipart Train Ep: 11100 lr0.005711999470730565 	 Loss Classification: 0.259731 Loss T 0.072386 Method MME
+
+S painting T clipart Train Ep: 11200 lr0.005691779987127103 	 Loss Classification: 0.338922 Loss T 0.087328 Method MME
+
+S painting T clipart Train Ep: 11300 lr0.005671726723799515 	 Loss Classification: 0.119211 Loss T 0.085790 Method MME
+
+S painting T clipart Train Ep: 11400 lr0.005651837543487509 	 Loss Classification: 0.062642 Loss T 0.063918 Method MME
+
+S painting T clipart Train Ep: 11500 lr0.005632110346230358 	 Loss Classification: 0.173303 Loss T 0.093547 Method MME
+
+
+Test set: Average loss: 2.1106, Accuracy: 6306/9264 F1 (68%)
+
+
+Test set: Average loss: 1.8602, Accuracy: 250/360 F1 (69%)
+
+best acc test 67.217185 best acc val 69.444444
+record record/multi/MME/MME_net_resnet34_painting_to_clipart_num_1
+saving model
+S painting T clipart Train Ep: 11600 lr0.005612543068546177 	 Loss Classification: 0.084252 Loss T 0.095672 Method MME
+
+S painting T clipart Train Ep: 11700 lr0.005593133682632953 	 Loss Classification: 0.134125 Loss T 0.077536 Method MME
+
+S painting T clipart Train Ep: 11800 lr0.005573880195590681 	 Loss Classification: 0.086165 Loss T 0.097220 Method MME
+
+S painting T clipart Train Ep: 11900 lr0.0055547806486639095 	 Loss Classification: 0.133727 Loss T 0.092567 Method MME
+
+S painting T clipart Train Ep: 12000 lr0.005535833116504121 	 Loss Classification: 0.079329 Loss T 0.084166 Method MME
+
+
+Test set: Average loss: 2.1530, Accuracy: 6293/9264 F1 (67%)
+
+
+Test set: Average loss: 1.8983, Accuracy: 241/360 F1 (66%)
+

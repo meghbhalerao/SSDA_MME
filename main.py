@@ -56,7 +56,8 @@ parser.add_argument('--patience', type=int, default=5, metavar='S',
                          'before terminating. (default: 5 (5000 iterations))')
 parser.add_argument('--early', action='store_false', default=True,
                     help='early stopping on validation or not')
-
+parser.add_argument('--pretrained_ckpt', type=str, default=None,
+                    help='path to pretrained weights')
 args = parser.parse_args()
 print('Dataset %s Source %s Target %s Labeled num perclass %s Network %s' %
       (args.dataset, args.source, args.target, args.num, args.net))
@@ -101,6 +102,11 @@ else:
     F1 = Predictor(num_class=len(class_list), inc=inc,
                    temp=args.T)
 weights_init(F1)
+if args.pretrained_ckpt is not None:
+    ckpt = torch.load(args.pretrained_ckpt)
+    G.load_state_dict(ckpt["G"])
+    F1.load_state_dict(ckpt["F1"])
+
 lr = args.lr
 G.cuda()
 F1.cuda()
@@ -131,7 +137,6 @@ sample_labels_s = Variable(sample_labels_s)
 
 if os.path.exists(args.checkpath) == False:
     os.mkdir(args.checkpath)
-
 
 def train():
     G.train()

@@ -1,0 +1,346 @@
+Dataset multi Source painting Target real Labeled num perclass 3 Network resnet34
+126 classes in this dataset
+THCudaCheck FAIL file=/opt/conda/conda-bld/pytorch_1535493744281/work/aten/src/THC/THCGeneral.cpp line=663 error=11 : invalid argument
+S painting T real Train Ep: 0 lr0.01 	 Loss Classification: 1.723649 Loss T 0.194451 Method MME
+
+/home/megh/projects/domain-adaptation/SSDA_MME/utils/loss.py:38: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  out_t1 = F.softmax(out_t1)
+S painting T real Train Ep: 100 lr0.009925650290240803 	 Loss Classification: 0.560001 Loss T 0.190753 Method MME
+
+S painting T real Train Ep: 200 lr0.009852577760521605 	 Loss Classification: 0.706409 Loss T 0.190143 Method MME
+
+S painting T real Train Ep: 300 lr0.009780748269686728 	 Loss Classification: 0.954747 Loss T 0.136143 Method MME
+
+S painting T real Train Ep: 400 lr0.009710128909124701 	 Loss Classification: 0.508083 Loss T 0.140323 Method MME
+
+S painting T real Train Ep: 500 lr0.00964068794694323 	 Loss Classification: 0.722762 Loss T 0.130914 Method MME
+
+
+Test set: Average loss: 1.1597, Accuracy: 50237/69936 F1 (71%)
+
+
+Test set: Average loss: 1.3755, Accuracy: 235/360 F1 (65%)
+
+best acc test 71.832819 best acc val 65.277778
+record record/multi/MME/MME_net_resnet34_painting_to_real_num_3
+saving model
+S painting T real Train Ep: 600 lr0.00957239477517603 	 Loss Classification: 0.901184 Loss T 0.133012 Method MME
+
+S painting T real Train Ep: 700 lr0.009505219859830012 	 Loss Classification: 0.524739 Loss T 0.144596 Method MME
+
+S painting T real Train Ep: 800 lr0.009439134693595126 	 Loss Classification: 0.683288 Loss T 0.141141 Method MME
+
+S painting T real Train Ep: 900 lr0.009374111751051751 	 Loss Classification: 0.489867 Loss T 0.111348 Method MME
+
+S painting T real Train Ep: 1000 lr0.009310124446222227 	 Loss Classification: 0.361014 Loss T 0.125233 Method MME
+
+
+Test set: Average loss: 1.1180, Accuracy: 51231/69936 F1 (73%)
+
+
+Test set: Average loss: 1.3086, Accuracy: 245/360 F1 (68%)
+
+best acc test 73.254118 best acc val 68.055556
+record record/multi/MME/MME_net_resnet34_painting_to_real_num_3
+saving model
+S painting T real Train Ep: 1100 lr0.00924714709232377 	 Loss Classification: 0.472870 Loss T 0.129930 Method MME
+
+S painting T real Train Ep: 1200 lr0.009185154863590003 	 Loss Classification: 0.740868 Loss T 0.136865 Method MME
+
+S painting T real Train Ep: 1300 lr0.00912412375903735 	 Loss Classification: 0.512291 Loss T 0.139623 Method MME
+
+S painting T real Train Ep: 1400 lr0.009064030568061049 	 Loss Classification: 0.515114 Loss T 0.144241 Method MME
+
+S painting T real Train Ep: 1500 lr0.009004852837753237 	 Loss Classification: 0.383871 Loss T 0.152309 Method MME
+
+
+Test set: Average loss: 1.0724, Accuracy: 52305/69936 F1 (74%)
+
+
+Test set: Average loss: 1.2295, Accuracy: 248/360 F1 (68%)
+
+best acc test 74.789808 best acc val 68.888889
+record record/multi/MME/MME_net_resnet34_painting_to_real_num_3
+saving model
+S painting T real Train Ep: 1600 lr0.008946568841842816 	 Loss Classification: 0.293548 Loss T 0.093163 Method MME
+
+S painting T real Train Ep: 1700 lr0.008889157551163433 	 Loss Classification: 0.518994 Loss T 0.130632 Method MME
+
+S painting T real Train Ep: 1800 lr0.008832598605562044 	 Loss Classification: 0.215563 Loss T 0.135841 Method MME
+
+S painting T real Train Ep: 1900 lr0.008776872287166303 	 Loss Classification: 0.434289 Loss T 0.148020 Method MME
+
+S painting T real Train Ep: 2000 lr0.008721959494934213 	 Loss Classification: 0.286867 Loss T 0.124474 Method MME
+
+
+Test set: Average loss: 1.0718, Accuracy: 52837/69936 F1 (75%)
+
+
+Test set: Average loss: 1.2425, Accuracy: 260/360 F1 (72%)
+
+best acc test 75.550503 best acc val 72.222222
+record record/multi/MME/MME_net_resnet34_painting_to_real_num_3
+saving model
+S painting T real Train Ep: 2100 lr0.008667841720414475 	 Loss Classification: 0.652562 Loss T 0.101908 Method MME
+
+S painting T real Train Ep: 2200 lr0.008614501024650454 	 Loss Classification: 0.301978 Loss T 0.137855 Method MME
+
+S painting T real Train Ep: 2300 lr0.008561920016164943 	 Loss Classification: 0.469133 Loss T 0.123297 Method MME
+
+S painting T real Train Ep: 2400 lr0.008510081829966844 	 Loss Classification: 0.554858 Loss T 0.127607 Method MME
+
+S painting T real Train Ep: 2500 lr0.008458970107524513 	 Loss Classification: 0.757355 Loss T 0.153486 Method MME
+
+
+Test set: Average loss: 1.0559, Accuracy: 53032/69936 F1 (75%)
+
+
+Test set: Average loss: 1.1640, Accuracy: 264/360 F1 (73%)
+
+best acc test 75.829330 best acc val 73.333333
+record record/multi/MME/MME_net_resnet34_painting_to_real_num_3
+saving model
+S painting T real Train Ep: 2600 lr0.008408568977653933 	 Loss Classification: 0.669437 Loss T 0.115968 Method MME
+
+S painting T real Train Ep: 2700 lr0.00835886303827305 	 Loss Classification: 0.397322 Loss T 0.108690 Method MME
+
+S painting T real Train Ep: 2800 lr0.008309837338976545 	 Loss Classification: 0.340426 Loss T 0.089263 Method MME
+
+S painting T real Train Ep: 2900 lr0.008261477364388068 	 Loss Classification: 0.313379 Loss T 0.124171 Method MME
+
+S painting T real Train Ep: 3000 lr0.008213769018249545 	 Loss Classification: 0.314497 Loss T 0.087105 Method MME
+
+
+Test set: Average loss: 1.0786, Accuracy: 53203/69936 F1 (76%)
+
+
+Test set: Average loss: 1.2026, Accuracy: 257/360 F1 (71%)
+
+best acc test 75.829330 best acc val 71.388889
+record record/multi/MME/MME_net_resnet34_painting_to_real_num_3
+saving model
+S painting T real Train Ep: 3100 lr0.008166698608209509 	 Loss Classification: 0.466275 Loss T 0.130261 Method MME
+
+S painting T real Train Ep: 3200 lr0.008120252831274708 	 Loss Classification: 0.730233 Loss T 0.147223 Method MME
+
+S painting T real Train Ep: 3300 lr0.008074418759891278 	 Loss Classification: 0.319019 Loss T 0.086740 Method MME
+
+S painting T real Train Ep: 3400 lr0.008029183828623731 	 Loss Classification: 0.322568 Loss T 0.108147 Method MME
+
+S painting T real Train Ep: 3500 lr0.007984535821401871 	 Loss Classification: 0.275723 Loss T 0.092216 Method MME
+
+
+Test set: Average loss: 1.1063, Accuracy: 53277/69936 F1 (76%)
+
+
+Test set: Average loss: 1.2902, Accuracy: 256/360 F1 (71%)
+
+best acc test 75.829330 best acc val 71.111111
+record record/multi/MME/MME_net_resnet34_painting_to_real_num_3
+saving model
+S painting T real Train Ep: 3600 lr0.007940462859307384 	 Loss Classification: 0.368400 Loss T 0.142170 Method MME
+
+S painting T real Train Ep: 3700 lr0.007896953388873518 	 Loss Classification: 0.357601 Loss T 0.094946 Method MME
+
+S painting T real Train Ep: 3800 lr0.007853996170872714 	 Loss Classification: 0.520045 Loss T 0.107687 Method MME
+
+S painting T real Train Ep: 3900 lr0.00781158026956848 	 Loss Classification: 0.380372 Loss T 0.102515 Method MME
+
+S painting T real Train Ep: 4000 lr0.007769695042409123 	 Loss Classification: 0.189995 Loss T 0.129246 Method MME
+
+
+Test set: Average loss: 1.0987, Accuracy: 53675/69936 F1 (76%)
+
+
+Test set: Average loss: 1.2262, Accuracy: 265/360 F1 (73%)
+
+best acc test 76.748742 best acc val 73.611111
+record record/multi/MME/MME_net_resnet34_painting_to_real_num_3
+saving model
+S painting T real Train Ep: 4100 lr0.007728330130142108 	 Loss Classification: 0.267642 Loss T 0.113525 Method MME
+
+S painting T real Train Ep: 4200 lr0.007687475447329114 	 Loss Classification: 0.188065 Loss T 0.101379 Method MME
+
+S painting T real Train Ep: 4300 lr0.0076471211732427845 	 Loss Classification: 0.508347 Loss T 0.114957 Method MME
+
+S painting T real Train Ep: 4400 lr0.007607257743127307 	 Loss Classification: 0.365026 Loss T 0.093019 Method MME
+
+S painting T real Train Ep: 4500 lr0.007567875839805858 	 Loss Classification: 0.281292 Loss T 0.113787 Method MME
+
+
+Test set: Average loss: 1.1127, Accuracy: 53739/69936 F1 (76%)
+
+
+Test set: Average loss: 1.3011, Accuracy: 259/360 F1 (71%)
+
+best acc test 76.748742 best acc val 71.944444
+record record/multi/MME/MME_net_resnet34_painting_to_real_num_3
+saving model
+S painting T real Train Ep: 4600 lr0.007528966385618854 	 Loss Classification: 0.195776 Loss T 0.092836 Method MME
+
+S painting T real Train Ep: 4700 lr0.007490520534677821 	 Loss Classification: 0.225908 Loss T 0.105396 Method MME
+
+S painting T real Train Ep: 4800 lr0.007452529665420465 	 Loss Classification: 0.267569 Loss T 0.111064 Method MME
+
+S painting T real Train Ep: 4900 lr0.007414985373453289 	 Loss Classification: 0.278384 Loss T 0.112532 Method MME
+
+S painting T real Train Ep: 5000 lr0.007377879464668811 	 Loss Classification: 0.277480 Loss T 0.098900 Method MME
+
+
+Test set: Average loss: 1.1355, Accuracy: 53545/69936 F1 (76%)
+
+
+Test set: Average loss: 1.3052, Accuracy: 266/360 F1 (73%)
+
+best acc test 76.562857 best acc val 73.888889
+record record/multi/MME/MME_net_resnet34_painting_to_real_num_3
+saving model
+S painting T real Train Ep: 5100 lr0.007341203948625087 	 Loss Classification: 0.224836 Loss T 0.085757 Method MME
+
+S painting T real Train Ep: 5200 lr0.007304951032175895 	 Loss Classification: 0.160612 Loss T 0.144597 Method MME
+
+S painting T real Train Ep: 5300 lr0.007269113113340497 	 Loss Classification: 0.311514 Loss T 0.100785 Method MME
+
+S painting T real Train Ep: 5400 lr0.007233682775402483 	 Loss Classification: 0.228208 Loss T 0.100169 Method MME
+
+S painting T real Train Ep: 5500 lr0.007198652781227704 	 Loss Classification: 0.310226 Loss T 0.093126 Method MME
+
+
+Test set: Average loss: 1.1319, Accuracy: 54112/69936 F1 (77%)
+
+
+Test set: Average loss: 1.2573, Accuracy: 272/360 F1 (75%)
+
+best acc test 77.373599 best acc val 75.555556
+record record/multi/MME/MME_net_resnet34_painting_to_real_num_3
+saving model
+S painting T real Train Ep: 5600 lr0.007164016067791809 	 Loss Classification: 0.164898 Loss T 0.119312 Method MME
+
+S painting T real Train Ep: 5700 lr0.0071297657409083726 	 Loss Classification: 0.142403 Loss T 0.110615 Method MME
+
+S painting T real Train Ep: 5800 lr0.0070958950701490225 	 Loss Classification: 0.167617 Loss T 0.094794 Method MME
+
+S painting T real Train Ep: 5900 lr0.007062397483947426 	 Loss Classification: 0.192482 Loss T 0.080305 Method MME
+
+S painting T real Train Ep: 6000 lr0.007029266564879363 	 Loss Classification: 0.269439 Loss T 0.105598 Method MME
+
+
+Test set: Average loss: 1.1598, Accuracy: 53989/69936 F1 (77%)
+
+
+Test set: Average loss: 1.3449, Accuracy: 272/360 F1 (75%)
+
+best acc test 77.197724 best acc val 75.555556
+record record/multi/MME/MME_net_resnet34_painting_to_real_num_3
+saving model
+S painting T real Train Ep: 6100 lr0.006996496045111504 	 Loss Classification: 0.335651 Loss T 0.103477 Method MME
+
+S painting T real Train Ep: 6200 lr0.00696407980201184 	 Loss Classification: 0.323287 Loss T 0.121670 Method MME
+
+S painting T real Train Ep: 6300 lr0.006932011853915101 	 Loss Classification: 0.313096 Loss T 0.120795 Method MME
+
+S painting T real Train Ep: 6400 lr0.006900286356036734 	 Loss Classification: 0.216145 Loss T 0.079864 Method MME
+
+S painting T real Train Ep: 6500 lr0.006868897596529406 	 Loss Classification: 0.161894 Loss T 0.116273 Method MME
+
+
+Test set: Average loss: 1.1642, Accuracy: 54045/69936 F1 (77%)
+
+
+Test set: Average loss: 1.3450, Accuracy: 262/360 F1 (72%)
+
+best acc test 77.197724 best acc val 72.777778
+record record/multi/MME/MME_net_resnet34_painting_to_real_num_3
+saving model
+S painting T real Train Ep: 6600 lr0.006837839992676177 	 Loss Classification: 0.093294 Loss T 0.100670 Method MME
+
+S painting T real Train Ep: 6700 lr0.006807108087214876 	 Loss Classification: 0.285675 Loss T 0.082794 Method MME
+
+S painting T real Train Ep: 6800 lr0.006776696544788352 	 Loss Classification: 0.046724 Loss T 0.105361 Method MME
+
+S painting T real Train Ep: 6900 lr0.006746600148515609 	 Loss Classification: 0.161258 Loss T 0.080930 Method MME
+
+S painting T real Train Ep: 7000 lr0.006716813796678979 	 Loss Classification: 0.295880 Loss T 0.067816 Method MME
+
+
+Test set: Average loss: 1.1877, Accuracy: 54232/69936 F1 (77%)
+
+
+Test set: Average loss: 1.3588, Accuracy: 269/360 F1 (74%)
+
+best acc test 77.197724 best acc val 74.722222
+record record/multi/MME/MME_net_resnet34_painting_to_real_num_3
+saving model
+S painting T real Train Ep: 7100 lr0.006687332499522798 	 Loss Classification: 0.079184 Loss T 0.082609 Method MME
+
+S painting T real Train Ep: 7200 lr0.006658151376159165 	 Loss Classification: 0.134383 Loss T 0.077022 Method MME
+
+S painting T real Train Ep: 7300 lr0.00662926565157663 	 Loss Classification: 0.104544 Loss T 0.117861 Method MME
+
+S painting T real Train Ep: 7400 lr0.006600670653747793 	 Loss Classification: 0.273385 Loss T 0.101866 Method MME
+
+S painting T real Train Ep: 7500 lr0.0065723618108320175 	 Loss Classification: 0.296051 Loss T 0.102557 Method MME
+
+
+Test set: Average loss: 1.1932, Accuracy: 54043/69936 F1 (77%)
+
+
+Test set: Average loss: 1.4346, Accuracy: 263/360 F1 (73%)
+
+best acc test 77.197724 best acc val 73.055556
+record record/multi/MME/MME_net_resnet34_painting_to_real_num_3
+saving model
+S painting T real Train Ep: 7600 lr0.006544334648469591 	 Loss Classification: 0.386076 Loss T 0.108098 Method MME
+
+S painting T real Train Ep: 7700 lr0.006516584787163857 	 Loss Classification: 0.210037 Loss T 0.088383 Method MME
+
+S painting T real Train Ep: 7800 lr0.006489107939747966 	 Loss Classification: 0.145630 Loss T 0.093572 Method MME
+
+S painting T real Train Ep: 7900 lr0.0064618999089330565 	 Loss Classification: 0.139549 Loss T 0.090886 Method MME
+
+S painting T real Train Ep: 8000 lr0.006434956584934828 	 Loss Classification: 0.215282 Loss T 0.116759 Method MME
+
+
+Test set: Average loss: 1.2081, Accuracy: 54150/69936 F1 (77%)
+
+
+Test set: Average loss: 1.3668, Accuracy: 267/360 F1 (74%)
+
+best acc test 77.197724 best acc val 74.166667
+record record/multi/MME/MME_net_resnet34_painting_to_real_num_3
+saving model
+S painting T real Train Ep: 8100 lr0.006408273943175546 	 Loss Classification: 0.101297 Loss T 0.097508 Method MME
+
+S painting T real Train Ep: 8200 lr0.006381848042058713 	 Loss Classification: 0.067774 Loss T 0.072035 Method MME
+
+S painting T real Train Ep: 8300 lr0.0063556750208137005 	 Loss Classification: 0.148935 Loss T 0.100449 Method MME
+
+S painting T real Train Ep: 8400 lr0.006329751097407787 	 Loss Classification: 0.232726 Loss T 0.101648 Method MME
+
+S painting T real Train Ep: 8500 lr0.0063040725665231365 	 Loss Classification: 0.101450 Loss T 0.073201 Method MME
+
+
+Test set: Average loss: 1.2078, Accuracy: 54321/69936 F1 (77%)
+
+
+Test set: Average loss: 1.4249, Accuracy: 268/360 F1 (74%)
+
+best acc test 77.197724 best acc val 74.444444
+record record/multi/MME/MME_net_resnet34_painting_to_real_num_3
+saving model
+S painting T real Train Ep: 8600 lr0.006278635797596355 	 Loss Classification: 0.112188 Loss T 0.115162 Method MME
+
+S painting T real Train Ep: 8700 lr0.006253437232918371 	 Loss Classification: 0.131043 Loss T 0.102125 Method MME
+
+S painting T real Train Ep: 8800 lr0.0062284733857924735 	 Loss Classification: 0.219877 Loss T 0.073690 Method MME
+
+S painting T real Train Ep: 8900 lr0.006203740838748417 	 Loss Classification: 0.309664 Loss T 0.066403 Method MME
+
+S painting T real Train Ep: 9000 lr0.006179236241810624 	 Loss Classification: 0.252419 Loss T 0.101117 Method MME
+
+
+Test set: Average loss: 1.2019, Accuracy: 54392/69936 F1 (77%)
+
+
+Test set: Average loss: 1.4382, Accuracy: 268/360 F1 (74%)
+

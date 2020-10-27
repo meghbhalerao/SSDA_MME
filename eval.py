@@ -1,6 +1,4 @@
 from __future__ import print_function
-
-
 import argparse
 import os
 import torch
@@ -34,6 +32,7 @@ parser.add_argument('--dataset', type=str, default='multi_all',
                     choices=['multi_all'],
                     help='the name of dataset, multi is large scale dataset')
 args = parser.parse_args()
+
 print('dataset %s source %s target %s network %s' %
       (args.dataset, args.source, args.target, args.net))
 target_loader_unl, class_list = return_dataset_test(args)

@@ -1,0 +1,646 @@
+Dataset multi Source real Target clipart Labeled num perclass 3 Network resnet34
+126 classes in this dataset
+THCudaCheck FAIL file=/opt/conda/conda-bld/pytorch_1535493744281/work/aten/src/THC/THCGeneral.cpp line=663 error=11 : invalid argument
+S real T clipart Train Ep: 0 lr0.01 	 Loss Classification: 1.515423 Loss T 0.252432 Method MME
+
+/home/megh/projects/domain-adaptation/SSDA_MME/utils/loss.py:38: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  out_t1 = F.softmax(out_t1)
+S real T clipart Train Ep: 100 lr0.009925650290240803 	 Loss Classification: 1.008182 Loss T 0.252770 Method MME
+
+S real T clipart Train Ep: 200 lr0.009852577760521605 	 Loss Classification: 0.582620 Loss T 0.195864 Method MME
+
+S real T clipart Train Ep: 300 lr0.009780748269686728 	 Loss Classification: 0.328731 Loss T 0.195031 Method MME
+
+S real T clipart Train Ep: 400 lr0.009710128909124701 	 Loss Classification: 0.508578 Loss T 0.199721 Method MME
+
+S real T clipart Train Ep: 500 lr0.00964068794694323 	 Loss Classification: 0.477178 Loss T 0.202007 Method MME
+
+
+Test set: Average loss: 1.8885, Accuracy: 10147/18288 F1 (55%)
+
+
+Test set: Average loss: 1.8565, Accuracy: 215/360 F1 (59%)
+
+best acc test 55.484471 best acc val 59.722222
+record record/multi/MME/MME_net_resnet34_real_to_clipart_num_3
+saving model
+S real T clipart Train Ep: 600 lr0.00957239477517603 	 Loss Classification: 0.686050 Loss T 0.203558 Method MME
+
+S real T clipart Train Ep: 700 lr0.009505219859830012 	 Loss Classification: 0.804873 Loss T 0.201862 Method MME
+
+S real T clipart Train Ep: 800 lr0.009439134693595126 	 Loss Classification: 0.188987 Loss T 0.187786 Method MME
+
+S real T clipart Train Ep: 900 lr0.009374111751051751 	 Loss Classification: 0.438937 Loss T 0.164243 Method MME
+
+S real T clipart Train Ep: 1000 lr0.009310124446222227 	 Loss Classification: 0.518411 Loss T 0.169245 Method MME
+
+
+Test set: Average loss: 1.7923, Accuracy: 10686/18288 F1 (58%)
+
+
+Test set: Average loss: 1.6660, Accuracy: 229/360 F1 (63%)
+
+best acc test 58.431759 best acc val 63.611111
+record record/multi/MME/MME_net_resnet34_real_to_clipart_num_3
+saving model
+S real T clipart Train Ep: 1100 lr0.00924714709232377 	 Loss Classification: 0.616039 Loss T 0.154740 Method MME
+
+S real T clipart Train Ep: 1200 lr0.009185154863590003 	 Loss Classification: 0.227709 Loss T 0.150762 Method MME
+
+S real T clipart Train Ep: 1300 lr0.00912412375903735 	 Loss Classification: 0.406183 Loss T 0.155912 Method MME
+
+S real T clipart Train Ep: 1400 lr0.009064030568061049 	 Loss Classification: 0.528618 Loss T 0.196491 Method MME
+
+S real T clipart Train Ep: 1500 lr0.009004852837753237 	 Loss Classification: 0.246568 Loss T 0.201969 Method MME
+
+
+Test set: Average loss: 1.6897, Accuracy: 11271/18288 F1 (61%)
+
+
+Test set: Average loss: 1.5782, Accuracy: 234/360 F1 (65%)
+
+best acc test 61.630577 best acc val 65.000000
+record record/multi/MME/MME_net_resnet34_real_to_clipart_num_3
+saving model
+S real T clipart Train Ep: 1600 lr0.008946568841842816 	 Loss Classification: 0.260634 Loss T 0.190082 Method MME
+
+S real T clipart Train Ep: 1700 lr0.008889157551163433 	 Loss Classification: 0.280642 Loss T 0.185632 Method MME
+
+S real T clipart Train Ep: 1800 lr0.008832598605562044 	 Loss Classification: 0.206254 Loss T 0.201965 Method MME
+
+S real T clipart Train Ep: 1900 lr0.008776872287166303 	 Loss Classification: 0.212391 Loss T 0.178584 Method MME
+
+S real T clipart Train Ep: 2000 lr0.008721959494934213 	 Loss Classification: 0.262456 Loss T 0.161236 Method MME
+
+
+Test set: Average loss: 1.6681, Accuracy: 11507/18288 F1 (62%)
+
+
+Test set: Average loss: 1.4884, Accuracy: 243/360 F1 (67%)
+
+best acc test 62.921041 best acc val 67.500000
+record record/multi/MME/MME_net_resnet34_real_to_clipart_num_3
+saving model
+S real T clipart Train Ep: 2100 lr0.008667841720414475 	 Loss Classification: 0.487575 Loss T 0.153589 Method MME
+
+S real T clipart Train Ep: 2200 lr0.008614501024650454 	 Loss Classification: 0.276865 Loss T 0.157929 Method MME
+
+S real T clipart Train Ep: 2300 lr0.008561920016164943 	 Loss Classification: 0.406140 Loss T 0.208584 Method MME
+
+S real T clipart Train Ep: 2400 lr0.008510081829966844 	 Loss Classification: 0.190625 Loss T 0.157886 Method MME
+
+S real T clipart Train Ep: 2500 lr0.008458970107524513 	 Loss Classification: 0.369341 Loss T 0.156732 Method MME
+
+
+Test set: Average loss: 1.6142, Accuracy: 11832/18288 F1 (64%)
+
+
+Test set: Average loss: 1.5556, Accuracy: 241/360 F1 (66%)
+
+best acc test 62.921041 best acc val 66.944444
+record record/multi/MME/MME_net_resnet34_real_to_clipart_num_3
+saving model
+S real T clipart Train Ep: 2600 lr0.008408568977653933 	 Loss Classification: 0.164893 Loss T 0.182152 Method MME
+
+S real T clipart Train Ep: 2700 lr0.00835886303827305 	 Loss Classification: 0.330264 Loss T 0.202151 Method MME
+
+S real T clipart Train Ep: 2800 lr0.008309837338976545 	 Loss Classification: 0.361138 Loss T 0.148092 Method MME
+
+S real T clipart Train Ep: 2900 lr0.008261477364388068 	 Loss Classification: 0.510953 Loss T 0.137651 Method MME
+
+S real T clipart Train Ep: 3000 lr0.008213769018249545 	 Loss Classification: 0.265586 Loss T 0.167214 Method MME
+
+
+Test set: Average loss: 1.5722, Accuracy: 12133/18288 F1 (66%)
+
+
+Test set: Average loss: 1.4951, Accuracy: 240/360 F1 (66%)
+
+best acc test 62.921041 best acc val 66.666667
+record record/multi/MME/MME_net_resnet34_real_to_clipart_num_3
+saving model
+S real T clipart Train Ep: 3100 lr0.008166698608209509 	 Loss Classification: 0.261504 Loss T 0.171455 Method MME
+
+S real T clipart Train Ep: 3200 lr0.008120252831274708 	 Loss Classification: 0.113572 Loss T 0.160641 Method MME
+
+S real T clipart Train Ep: 3300 lr0.008074418759891278 	 Loss Classification: 0.312401 Loss T 0.163256 Method MME
+
+S real T clipart Train Ep: 3400 lr0.008029183828623731 	 Loss Classification: 0.371201 Loss T 0.135908 Method MME
+
+S real T clipart Train Ep: 3500 lr0.007984535821401871 	 Loss Classification: 0.221007 Loss T 0.165419 Method MME
+
+
+Test set: Average loss: 1.5979, Accuracy: 12147/18288 F1 (66%)
+
+
+Test set: Average loss: 1.5141, Accuracy: 250/360 F1 (69%)
+
+best acc test 66.420604 best acc val 69.444444
+record record/multi/MME/MME_net_resnet34_real_to_clipart_num_3
+saving model
+S real T clipart Train Ep: 3600 lr0.007940462859307384 	 Loss Classification: 0.307796 Loss T 0.139240 Method MME
+
+S real T clipart Train Ep: 3700 lr0.007896953388873518 	 Loss Classification: 0.411484 Loss T 0.150285 Method MME
+
+S real T clipart Train Ep: 3800 lr0.007853996170872714 	 Loss Classification: 0.347003 Loss T 0.154381 Method MME
+
+S real T clipart Train Ep: 3900 lr0.00781158026956848 	 Loss Classification: 0.109810 Loss T 0.151982 Method MME
+
+S real T clipart Train Ep: 4000 lr0.007769695042409123 	 Loss Classification: 0.435603 Loss T 0.170168 Method MME
+
+
+Test set: Average loss: 1.5692, Accuracy: 12313/18288 F1 (67%)
+
+
+Test set: Average loss: 1.4216, Accuracy: 255/360 F1 (70%)
+
+best acc test 67.328303 best acc val 70.833333
+record record/multi/MME/MME_net_resnet34_real_to_clipart_num_3
+saving model
+S real T clipart Train Ep: 4100 lr0.007728330130142108 	 Loss Classification: 0.327119 Loss T 0.153581 Method MME
+
+S real T clipart Train Ep: 4200 lr0.007687475447329114 	 Loss Classification: 0.275367 Loss T 0.128878 Method MME
+
+S real T clipart Train Ep: 4300 lr0.0076471211732427845 	 Loss Classification: 0.314518 Loss T 0.158151 Method MME
+
+S real T clipart Train Ep: 4400 lr0.007607257743127307 	 Loss Classification: 0.438009 Loss T 0.157291 Method MME
+
+S real T clipart Train Ep: 4500 lr0.007567875839805858 	 Loss Classification: 0.301919 Loss T 0.155147 Method MME
+
+
+Test set: Average loss: 1.5610, Accuracy: 12477/18288 F1 (68%)
+
+
+Test set: Average loss: 1.4070, Accuracy: 259/360 F1 (71%)
+
+best acc test 68.225066 best acc val 71.944444
+record record/multi/MME/MME_net_resnet34_real_to_clipart_num_3
+saving model
+S real T clipart Train Ep: 4600 lr0.007528966385618854 	 Loss Classification: 0.302758 Loss T 0.151832 Method MME
+
+S real T clipart Train Ep: 4700 lr0.007490520534677821 	 Loss Classification: 0.319886 Loss T 0.179790 Method MME
+
+S real T clipart Train Ep: 4800 lr0.007452529665420465 	 Loss Classification: 0.161179 Loss T 0.166066 Method MME
+
+S real T clipart Train Ep: 4900 lr0.007414985373453289 	 Loss Classification: 0.273467 Loss T 0.169488 Method MME
+
+S real T clipart Train Ep: 5000 lr0.007377879464668811 	 Loss Classification: 0.304586 Loss T 0.144701 Method MME
+
+
+Test set: Average loss: 1.5324, Accuracy: 12623/18288 F1 (69%)
+
+
+Test set: Average loss: 1.4293, Accuracy: 260/360 F1 (72%)
+
+best acc test 69.023403 best acc val 72.222222
+record record/multi/MME/MME_net_resnet34_real_to_clipart_num_3
+saving model
+S real T clipart Train Ep: 5100 lr0.007341203948625087 	 Loss Classification: 0.292742 Loss T 0.193536 Method MME
+
+S real T clipart Train Ep: 5200 lr0.007304951032175895 	 Loss Classification: 0.295807 Loss T 0.153914 Method MME
+
+S real T clipart Train Ep: 5300 lr0.007269113113340497 	 Loss Classification: 0.326866 Loss T 0.128345 Method MME
+
+S real T clipart Train Ep: 5400 lr0.007233682775402483 	 Loss Classification: 0.138133 Loss T 0.132662 Method MME
+
+S real T clipart Train Ep: 5500 lr0.007198652781227704 	 Loss Classification: 0.329274 Loss T 0.174969 Method MME
+
+
+Test set: Average loss: 1.5197, Accuracy: 12679/18288 F1 (69%)
+
+
+Test set: Average loss: 1.4644, Accuracy: 255/360 F1 (70%)
+
+best acc test 69.023403 best acc val 70.833333
+record record/multi/MME/MME_net_resnet34_real_to_clipart_num_3
+saving model
+S real T clipart Train Ep: 5600 lr0.007164016067791809 	 Loss Classification: 0.344639 Loss T 0.164963 Method MME
+
+S real T clipart Train Ep: 5700 lr0.0071297657409083726 	 Loss Classification: 0.344933 Loss T 0.160652 Method MME
+
+S real T clipart Train Ep: 5800 lr0.0070958950701490225 	 Loss Classification: 0.406048 Loss T 0.120355 Method MME
+
+S real T clipart Train Ep: 5900 lr0.007062397483947426 	 Loss Classification: 0.109588 Loss T 0.141488 Method MME
+
+S real T clipart Train Ep: 6000 lr0.007029266564879363 	 Loss Classification: 0.098431 Loss T 0.174987 Method MME
+
+
+Test set: Average loss: 1.4971, Accuracy: 12782/18288 F1 (69%)
+
+
+Test set: Average loss: 1.4324, Accuracy: 262/360 F1 (72%)
+
+best acc test 69.892826 best acc val 72.777778
+record record/multi/MME/MME_net_resnet34_real_to_clipart_num_3
+saving model
+S real T clipart Train Ep: 6100 lr0.006996496045111504 	 Loss Classification: 0.331420 Loss T 0.150517 Method MME
+
+S real T clipart Train Ep: 6200 lr0.00696407980201184 	 Loss Classification: 0.274817 Loss T 0.161733 Method MME
+
+S real T clipart Train Ep: 6300 lr0.006932011853915101 	 Loss Classification: 0.215145 Loss T 0.144233 Method MME
+
+S real T clipart Train Ep: 6400 lr0.006900286356036734 	 Loss Classification: 0.262532 Loss T 0.128271 Method MME
+
+S real T clipart Train Ep: 6500 lr0.006868897596529406 	 Loss Classification: 0.193503 Loss T 0.147827 Method MME
+
+
+Test set: Average loss: 1.5305, Accuracy: 12808/18288 F1 (70%)
+
+
+Test set: Average loss: 1.4756, Accuracy: 254/360 F1 (70%)
+
+best acc test 69.892826 best acc val 70.555556
+record record/multi/MME/MME_net_resnet34_real_to_clipart_num_3
+saving model
+S real T clipart Train Ep: 6600 lr0.006837839992676177 	 Loss Classification: 0.158518 Loss T 0.146718 Method MME
+
+S real T clipart Train Ep: 6700 lr0.006807108087214876 	 Loss Classification: 0.183756 Loss T 0.159137 Method MME
+
+S real T clipart Train Ep: 6800 lr0.006776696544788352 	 Loss Classification: 0.239898 Loss T 0.128901 Method MME
+
+S real T clipart Train Ep: 6900 lr0.006746600148515609 	 Loss Classification: 0.280871 Loss T 0.153270 Method MME
+
+S real T clipart Train Ep: 7000 lr0.006716813796678979 	 Loss Classification: 0.190205 Loss T 0.129378 Method MME
+
+
+Test set: Average loss: 1.5206, Accuracy: 12842/18288 F1 (70%)
+
+
+Test set: Average loss: 1.4640, Accuracy: 261/360 F1 (72%)
+
+best acc test 69.892826 best acc val 72.500000
+record record/multi/MME/MME_net_resnet34_real_to_clipart_num_3
+saving model
+S real T clipart Train Ep: 7100 lr0.006687332499522798 	 Loss Classification: 0.428296 Loss T 0.133043 Method MME
+
+S real T clipart Train Ep: 7200 lr0.006658151376159165 	 Loss Classification: 0.251842 Loss T 0.128430 Method MME
+
+S real T clipart Train Ep: 7300 lr0.00662926565157663 	 Loss Classification: 0.207359 Loss T 0.158032 Method MME
+
+S real T clipart Train Ep: 7400 lr0.006600670653747793 	 Loss Classification: 0.219349 Loss T 0.133534 Method MME
+
+S real T clipart Train Ep: 7500 lr0.0065723618108320175 	 Loss Classification: 0.149912 Loss T 0.107510 Method MME
+
+
+Test set: Average loss: 1.5294, Accuracy: 12953/18288 F1 (70%)
+
+
+Test set: Average loss: 1.3882, Accuracy: 265/360 F1 (73%)
+
+best acc test 70.827865 best acc val 73.611111
+record record/multi/MME/MME_net_resnet34_real_to_clipart_num_3
+saving model
+S real T clipart Train Ep: 7600 lr0.006544334648469591 	 Loss Classification: 0.250152 Loss T 0.146199 Method MME
+
+S real T clipart Train Ep: 7700 lr0.006516584787163857 	 Loss Classification: 0.179061 Loss T 0.159955 Method MME
+
+S real T clipart Train Ep: 7800 lr0.006489107939747966 	 Loss Classification: 0.203090 Loss T 0.129270 Method MME
+
+S real T clipart Train Ep: 7900 lr0.0064618999089330565 	 Loss Classification: 0.362774 Loss T 0.118368 Method MME
+
+S real T clipart Train Ep: 8000 lr0.006434956584934828 	 Loss Classification: 0.349450 Loss T 0.153712 Method MME
+
+
+Test set: Average loss: 1.5288, Accuracy: 12978/18288 F1 (70%)
+
+
+Test set: Average loss: 1.4419, Accuracy: 262/360 F1 (72%)
+
+best acc test 70.827865 best acc val 72.777778
+record record/multi/MME/MME_net_resnet34_real_to_clipart_num_3
+saving model
+S real T clipart Train Ep: 8100 lr0.006408273943175546 	 Loss Classification: 0.334693 Loss T 0.118099 Method MME
+
+S real T clipart Train Ep: 8200 lr0.006381848042058713 	 Loss Classification: 0.278448 Loss T 0.133600 Method MME
+
+S real T clipart Train Ep: 8300 lr0.0063556750208137005 	 Loss Classification: 0.465192 Loss T 0.112091 Method MME
+
+S real T clipart Train Ep: 8400 lr0.006329751097407787 	 Loss Classification: 0.415976 Loss T 0.114519 Method MME
+
+S real T clipart Train Ep: 8500 lr0.0063040725665231365 	 Loss Classification: 0.087655 Loss T 0.142811 Method MME
+
+
+Test set: Average loss: 1.5171, Accuracy: 13026/18288 F1 (71%)
+
+
+Test set: Average loss: 1.4431, Accuracy: 259/360 F1 (71%)
+
+best acc test 70.827865 best acc val 71.944444
+record record/multi/MME/MME_net_resnet34_real_to_clipart_num_3
+saving model
+S real T clipart Train Ep: 8600 lr0.006278635797596355 	 Loss Classification: 0.278619 Loss T 0.110198 Method MME
+
+S real T clipart Train Ep: 8700 lr0.006253437232918371 	 Loss Classification: 0.190317 Loss T 0.141243 Method MME
+
+S real T clipart Train Ep: 8800 lr0.0062284733857924735 	 Loss Classification: 0.217340 Loss T 0.108209 Method MME
+
+S real T clipart Train Ep: 8900 lr0.006203740838748417 	 Loss Classification: 0.154346 Loss T 0.135943 Method MME
+
+S real T clipart Train Ep: 9000 lr0.006179236241810624 	 Loss Classification: 0.249671 Loss T 0.155630 Method MME
+
+
+Test set: Average loss: 1.5201, Accuracy: 13090/18288 F1 (71%)
+
+
+Test set: Average loss: 1.5375, Accuracy: 260/360 F1 (72%)
+
+best acc test 70.827865 best acc val 72.222222
+record record/multi/MME/MME_net_resnet34_real_to_clipart_num_3
+saving model
+S real T clipart Train Ep: 9100 lr0.006154956310818535 	 Loss Classification: 0.158532 Loss T 0.097948 Method MME
+
+S real T clipart Train Ep: 9200 lr0.0061308978257973165 	 Loss Classification: 0.228423 Loss T 0.141934 Method MME
+
+S real T clipart Train Ep: 9300 lr0.0061070576293771285 	 Loss Classification: 0.142039 Loss T 0.079643 Method MME
+
+S real T clipart Train Ep: 9400 lr0.006083432625259276 	 Loss Classification: 0.387568 Loss T 0.102155 Method MME
+
+S real T clipart Train Ep: 9500 lr0.006060019776727621 	 Loss Classification: 0.257111 Loss T 0.111536 Method MME
+
+
+Test set: Average loss: 1.5157, Accuracy: 13122/18288 F1 (71%)
+
+
+Test set: Average loss: 1.4887, Accuracy: 266/360 F1 (73%)
+
+best acc test 71.751969 best acc val 73.888889
+record record/multi/MME/MME_net_resnet34_real_to_clipart_num_3
+saving model
+S real T clipart Train Ep: 9600 lr0.00603681610520369 	 Loss Classification: 0.362791 Loss T 0.111067 Method MME
+
+S real T clipart Train Ep: 9700 lr0.0060138186888439825 	 Loss Classification: 0.064455 Loss T 0.165321 Method MME
+
+S real T clipart Train Ep: 9800 lr0.005991024661178045 	 Loss Classification: 0.244627 Loss T 0.127593 Method MME
+
+S real T clipart Train Ep: 9900 lr0.0059684312097859115 	 Loss Classification: 0.241526 Loss T 0.107956 Method MME
+
+S real T clipart Train Ep: 10000 lr0.005946035575013605 	 Loss Classification: 0.133942 Loss T 0.084366 Method MME
+
+
+Test set: Average loss: 1.5193, Accuracy: 13199/18288 F1 (72%)
+
+
+Test set: Average loss: 1.5069, Accuracy: 256/360 F1 (71%)
+
+best acc test 71.751969 best acc val 71.111111
+record record/multi/MME/MME_net_resnet34_real_to_clipart_num_3
+saving model
+S real T clipart Train Ep: 10100 lr0.005923835048725393 	 Loss Classification: 0.187407 Loss T 0.135117 Method MME
+
+S real T clipart Train Ep: 10200 lr0.005901826973091593 	 Loss Classification: 0.140320 Loss T 0.126949 Method MME
+
+S real T clipart Train Ep: 10300 lr0.005880008739410735 	 Loss Classification: 0.333262 Loss T 0.111267 Method MME
+
+S real T clipart Train Ep: 10400 lr0.005858377786964935 	 Loss Classification: 0.229191 Loss T 0.136092 Method MME
+
+S real T clipart Train Ep: 10500 lr0.005836931601907399 	 Loss Classification: 0.264608 Loss T 0.105179 Method MME
+
+
+Test set: Average loss: 1.5417, Accuracy: 13158/18288 F1 (71%)
+
+
+Test set: Average loss: 1.4399, Accuracy: 269/360 F1 (74%)
+
+best acc test 71.948819 best acc val 74.722222
+record record/multi/MME/MME_net_resnet34_real_to_clipart_num_3
+saving model
+S real T clipart Train Ep: 10600 lr0.005815667716181004 	 Loss Classification: 0.145234 Loss T 0.124889 Method MME
+
+S real T clipart Train Ep: 10700 lr0.005794583706466925 	 Loss Classification: 0.139075 Loss T 0.113076 Method MME
+
+S real T clipart Train Ep: 10800 lr0.005773677193162352 	 Loss Classification: 0.280115 Loss T 0.109688 Method MME
+
+S real T clipart Train Ep: 10900 lr0.005752945839386346 	 Loss Classification: 0.165233 Loss T 0.113933 Method MME
+
+S real T clipart Train Ep: 11000 lr0.005732387350012933 	 Loss Classification: 0.141976 Loss T 0.132642 Method MME
+
+
+Test set: Average loss: 1.5471, Accuracy: 13177/18288 F1 (72%)
+
+
+Test set: Average loss: 1.4330, Accuracy: 260/360 F1 (72%)
+
+best acc test 71.948819 best acc val 72.222222
+record record/multi/MME/MME_net_resnet34_real_to_clipart_num_3
+saving model
+S real T clipart Train Ep: 11100 lr0.005711999470730565 	 Loss Classification: 0.224308 Loss T 0.099843 Method MME
+
+S real T clipart Train Ep: 11200 lr0.005691779987127103 	 Loss Classification: 0.329327 Loss T 0.089949 Method MME
+
+S real T clipart Train Ep: 11300 lr0.005671726723799515 	 Loss Classification: 0.287392 Loss T 0.138628 Method MME
+
+S real T clipart Train Ep: 11400 lr0.005651837543487509 	 Loss Classification: 0.165843 Loss T 0.115977 Method MME
+
+S real T clipart Train Ep: 11500 lr0.005632110346230358 	 Loss Classification: 0.160121 Loss T 0.128256 Method MME
+
+
+Test set: Average loss: 1.5572, Accuracy: 13196/18288 F1 (72%)
+
+
+Test set: Average loss: 1.4520, Accuracy: 268/360 F1 (74%)
+
+best acc test 71.948819 best acc val 74.444444
+record record/multi/MME/MME_net_resnet34_real_to_clipart_num_3
+saving model
+S real T clipart Train Ep: 11600 lr0.005612543068546177 	 Loss Classification: 0.273020 Loss T 0.105759 Method MME
+
+S real T clipart Train Ep: 11700 lr0.005593133682632953 	 Loss Classification: 0.219815 Loss T 0.108537 Method MME
+
+S real T clipart Train Ep: 11800 lr0.005573880195590681 	 Loss Classification: 0.166244 Loss T 0.101718 Method MME
+
+S real T clipart Train Ep: 11900 lr0.0055547806486639095 	 Loss Classification: 0.164158 Loss T 0.127799 Method MME
+
+S real T clipart Train Ep: 12000 lr0.005535833116504121 	 Loss Classification: 0.149388 Loss T 0.131311 Method MME
+
+
+Test set: Average loss: 1.5859, Accuracy: 13234/18288 F1 (72%)
+
+
+Test set: Average loss: 1.5448, Accuracy: 267/360 F1 (74%)
+
+best acc test 71.948819 best acc val 74.166667
+record record/multi/MME/MME_net_resnet34_real_to_clipart_num_3
+saving model
+S real T clipart Train Ep: 12100 lr0.00551703570645129 	 Loss Classification: 0.155480 Loss T 0.108788 Method MME
+
+S real T clipart Train Ep: 12200 lr0.005498386557834078 	 Loss Classification: 0.189674 Loss T 0.116814 Method MME
+
+S real T clipart Train Ep: 12300 lr0.00547988384128807 	 Loss Classification: 0.104003 Loss T 0.097786 Method MME
+
+S real T clipart Train Ep: 12400 lr0.005461525758091539 	 Loss Classification: 0.219176 Loss T 0.130680 Method MME
+
+S real T clipart Train Ep: 12500 lr0.005443310539518174 	 Loss Classification: 0.292057 Loss T 0.084256 Method MME
+
+
+Test set: Average loss: 1.5855, Accuracy: 13266/18288 F1 (72%)
+
+
+Test set: Average loss: 1.3908, Accuracy: 270/360 F1 (75%)
+
+best acc test 72.539370 best acc val 75.000000
+record record/multi/MME/MME_net_resnet34_real_to_clipart_num_3
+saving model
+S real T clipart Train Ep: 12600 lr0.005425236446206295 	 Loss Classification: 0.219444 Loss T 0.109596 Method MME
+
+S real T clipart Train Ep: 12700 lr0.005407301767544059 	 Loss Classification: 0.407128 Loss T 0.083563 Method MME
+
+S real T clipart Train Ep: 12800 lr0.005389504821070177 	 Loss Classification: 0.212158 Loss T 0.138689 Method MME
+
+S real T clipart Train Ep: 12900 lr0.005371843951889677 	 Loss Classification: 0.167615 Loss T 0.097256 Method MME
+
+S real T clipart Train Ep: 13000 lr0.0053543175321042955 	 Loss Classification: 0.514404 Loss T 0.129269 Method MME
+
+
+Test set: Average loss: 1.6106, Accuracy: 13229/18288 F1 (72%)
+
+
+Test set: Average loss: 1.4972, Accuracy: 272/360 F1 (75%)
+
+best acc test 72.337052 best acc val 75.555556
+record record/multi/MME/MME_net_resnet34_real_to_clipart_num_3
+saving model
+S real T clipart Train Ep: 13100 lr0.005336923960257046 	 Loss Classification: 0.214100 Loss T 0.103830 Method MME
+
+S real T clipart Train Ep: 13200 lr0.0053196616607905645 	 Loss Classification: 0.108641 Loss T 0.114463 Method MME
+
+S real T clipart Train Ep: 13300 lr0.0053025290835188275 	 Loss Classification: 0.111240 Loss T 0.109358 Method MME
+
+S real T clipart Train Ep: 13400 lr0.005285524703111859 	 Loss Classification: 0.242019 Loss T 0.099391 Method MME
+
+S real T clipart Train Ep: 13500 lr0.005268647018593052 	 Loss Classification: 0.138252 Loss T 0.090069 Method MME
+
+
+Test set: Average loss: 1.6448, Accuracy: 13228/18288 F1 (72%)
+
+
+Test set: Average loss: 1.5507, Accuracy: 267/360 F1 (74%)
+
+best acc test 72.337052 best acc val 74.166667
+record record/multi/MME/MME_net_resnet34_real_to_clipart_num_3
+saving model
+S real T clipart Train Ep: 13600 lr0.005251894552848747 	 Loss Classification: 0.308252 Loss T 0.136786 Method MME
+
+S real T clipart Train Ep: 13700 lr0.005235265852149712 	 Loss Classification: 0.125746 Loss T 0.118085 Method MME
+
+S real T clipart Train Ep: 13800 lr0.005218759485684187 	 Loss Classification: 0.073561 Loss T 0.096988 Method MME
+
+S real T clipart Train Ep: 13900 lr0.005202374045102174 	 Loss Classification: 0.278207 Loss T 0.081197 Method MME
+
+S real T clipart Train Ep: 14000 lr0.005186108144070652 	 Loss Classification: 0.172946 Loss T 0.141529 Method MME
+
+
+Test set: Average loss: 1.6190, Accuracy: 13262/18288 F1 (72%)
+
+
+Test set: Average loss: 1.5093, Accuracy: 267/360 F1 (74%)
+
+best acc test 72.337052 best acc val 74.166667
+record record/multi/MME/MME_net_resnet34_real_to_clipart_num_3
+saving model
+S real T clipart Train Ep: 14100 lr0.005169960417839403 	 Loss Classification: 0.224235 Loss T 0.100777 Method MME
+
+S real T clipart Train Ep: 14200 lr0.005153929522817161 	 Loss Classification: 0.298517 Loss T 0.115866 Method MME
+
+S real T clipart Train Ep: 14300 lr0.005138014136157799 	 Loss Classification: 0.264748 Loss T 0.103756 Method MME
+
+S real T clipart Train Ep: 14400 lr0.005122212955356274 	 Loss Classification: 0.316915 Loss T 0.112678 Method MME
+
+S real T clipart Train Ep: 14500 lr0.005106524697854057 	 Loss Classification: 0.110153 Loss T 0.101079 Method MME
+
+
+Test set: Average loss: 1.6371, Accuracy: 13200/18288 F1 (72%)
+
+
+Test set: Average loss: 1.5592, Accuracy: 264/360 F1 (73%)
+
+best acc test 72.337052 best acc val 73.333333
+record record/multi/MME/MME_net_resnet34_real_to_clipart_num_3
+saving model
+S real T clipart Train Ep: 14600 lr0.005090948100653781 	 Loss Classification: 0.116229 Loss T 0.121827 Method MME
+
+S real T clipart Train Ep: 14700 lr0.0050754819199428855 	 Loss Classification: 0.224985 Loss T 0.112642 Method MME
+
+S real T clipart Train Ep: 14800 lr0.005060124930725974 	 Loss Classification: 0.276733 Loss T 0.096423 Method MME
+
+S real T clipart Train Ep: 14900 lr0.00504487592646567 	 Loss Classification: 0.136699 Loss T 0.102028 Method MME
+
+S real T clipart Train Ep: 15000 lr0.005029733718731741 	 Loss Classification: 0.129862 Loss T 0.091118 Method MME
+
+
+Test set: Average loss: 1.6218, Accuracy: 13330/18288 F1 (72%)
+
+
+Test set: Average loss: 1.5744, Accuracy: 262/360 F1 (72%)
+
+best acc test 72.337052 best acc val 72.777778
+record record/multi/MME/MME_net_resnet34_real_to_clipart_num_3
+saving model
+S real T clipart Train Ep: 15100 lr0.005014697136858264 	 Loss Classification: 0.211260 Loss T 0.113784 Method MME
+
+S real T clipart Train Ep: 15200 lr0.004999765027608607 	 Loss Classification: 0.105526 Loss T 0.094845 Method MME
+
+S real T clipart Train Ep: 15300 lr0.004984936254848047 	 Loss Classification: 0.174898 Loss T 0.086069 Method MME
+
+S real T clipart Train Ep: 15400 lr0.004970209699223787 	 Loss Classification: 0.090030 Loss T 0.096862 Method MME
+
+S real T clipart Train Ep: 15500 lr0.0049555842578521995 	 Loss Classification: 0.246932 Loss T 0.106010 Method MME
+
+
+Test set: Average loss: 1.6646, Accuracy: 13287/18288 F1 (72%)
+
+
+Test set: Average loss: 1.5900, Accuracy: 263/360 F1 (73%)
+
+best acc test 72.337052 best acc val 73.055556
+record record/multi/MME/MME_net_resnet34_real_to_clipart_num_3
+saving model
+S real T clipart Train Ep: 15600 lr0.004941058844013093 	 Loss Classification: 0.229567 Loss T 0.086439 Method MME
+
+S real T clipart Train Ep: 15700 lr0.004926632386850831 	 Loss Classification: 0.172230 Loss T 0.104834 Method MME
+
+S real T clipart Train Ep: 15800 lr0.004912303831082109 	 Loss Classification: 0.212426 Loss T 0.103206 Method MME
+
+S real T clipart Train Ep: 15900 lr0.004898072136710217 	 Loss Classification: 0.178019 Loss T 0.104475 Method MME
+
+S real T clipart Train Ep: 16000 lr0.004883936278745637 	 Loss Classification: 0.101605 Loss T 0.098122 Method MME
+
+
+Test set: Average loss: 1.6655, Accuracy: 13273/18288 F1 (72%)
+
+Exception ignored in: <function _DataLoaderIter.__del__ at 0x7f75b1ef3320>
+Traceback (most recent call last):
+  File "/home/megh/anaconda3/envs/ssal/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 399, in __del__
+    self._shutdown_workers()
+  File "/home/megh/anaconda3/envs/ssal/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 378, in _shutdown_workers
+    self.worker_result_queue.get()
+  File "/home/megh/anaconda3/envs/ssal/lib/python3.7/multiprocessing/queues.py", line 354, in get
+    return _ForkingPickler.loads(res)
+  File "/home/megh/anaconda3/envs/ssal/lib/python3.7/site-packages/torch/multiprocessing/reductions.py", line 151, in rebuild_storage_fd
+    fd = df.detach()
+  File "/home/megh/anaconda3/envs/ssal/lib/python3.7/multiprocessing/resource_sharer.py", line 58, in detach
+    return reduction.recv_handle(conn)
+  File "/home/megh/anaconda3/envs/ssal/lib/python3.7/multiprocessing/reduction.py", line 185, in recv_handle
+    return recvfds(s, 1)[0]
+  File "/home/megh/anaconda3/envs/ssal/lib/python3.7/multiprocessing/reduction.py", line 153, in recvfds
+    msg, ancdata, flags, addr = sock.recvmsg(1, socket.CMSG_SPACE(bytes_size))
+ConnectionResetError: [Errno 104] Connection reset by peer
+Exception ignored in: <function _DataLoaderIter.__del__ at 0x7f75b1ef3320>
+Traceback (most recent call last):
+  File "/home/megh/anaconda3/envs/ssal/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 399, in __del__
+    self._shutdown_workers()
+  File "/home/megh/anaconda3/envs/ssal/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 378, in _shutdown_workers
+    self.worker_result_queue.get()
+  File "/home/megh/anaconda3/envs/ssal/lib/python3.7/multiprocessing/queues.py", line 354, in get
+    return _ForkingPickler.loads(res)
+  File "/home/megh/anaconda3/envs/ssal/lib/python3.7/site-packages/torch/multiprocessing/reductions.py", line 151, in rebuild_storage_fd
+    fd = df.detach()
+  File "/home/megh/anaconda3/envs/ssal/lib/python3.7/multiprocessing/resource_sharer.py", line 58, in detach
+    return reduction.recv_handle(conn)
+  File "/home/megh/anaconda3/envs/ssal/lib/python3.7/multiprocessing/reduction.py", line 185, in recv_handle
+    return recvfds(s, 1)[0]
+  File "/home/megh/anaconda3/envs/ssal/lib/python3.7/multiprocessing/reduction.py", line 153, in recvfds
+    msg, ancdata, flags, addr = sock.recvmsg(1, socket.CMSG_SPACE(bytes_size))
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+Test set: Average loss: 1.6060, Accuracy: 262/360 F1 (72%)
+

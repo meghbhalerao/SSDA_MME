@@ -1,0 +1,11 @@
+Dataset multi Source painting Target real Labeled num perclass 1 Network resnet34
+126 classes in this dataset
+THCudaCheck FAIL file=/opt/conda/conda-bld/pytorch_1535493744281/work/aten/src/THC/THCGeneral.cpp line=663 error=11 : invalid argument
+S painting T real Train Ep: 0 lr0.01 	 Loss Classification: 4.860890 Loss T 0.469360 Method MME
+
+/home/megh/projects/domain-adaptation/SSDA_MME/utils/loss.py:38: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  out_t1 = F.softmax(out_t1)
+S painting T real Train Ep: 100 lr0.009925650290240803 	 Loss Classification: 0.620747 Loss T 0.268741 Method MME
+
+S painting T real Train Ep: 200 lr0.009852577760521605 	 Loss Classification: 0.767923 Loss T 0.215004 Method MME
+
