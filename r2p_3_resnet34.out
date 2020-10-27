@@ -326,3 +326,5 @@ Test set: Average loss: 1.7329, Accuracy: 236/360 F1 (65%)
 best acc test 67.714763 best acc val 65.555556
 record record/multi/MME/MME_net_resnet34_real_to_painting_num_3
 saving model
+S real T painting Train Ep: 8100 lr0.006408273943175546 	 Loss Classification: 0.203932 Loss T 0.152248 Method MME
+
